@@ -8,10 +8,8 @@
 | :--- | :--- | :--- | :--- |
 | 1 | Hetzner | `信用卡 - 需要KYC验证` | `最佳托管服务，但价格较高`，[拍卖服务器](https://www.hetzner.com/sb/)（最低 $30）性能好 |
 | 2 | Contabo | `信用卡 - 需要KYC验证` | `价格便宜，但部分节点存在带宽问题` |
-| 3 | [Hostbrr](https://my.hostbrr.com/order/forms/a/NTMxNw==) | `加密货币` | `价格适中，性能好` |
-| 4 | [PQhosting](https://pq.hosting/?from=800121) | `加密货币` | `性能好，部分服务器价格便宜` |
-| 5 | [Aeza](https://aeza.net/?ref=392339) | `加密货币` | `按小时计费的服务器最佳，有时能找到优质服务器` |
-| 6 | [Bartarvs](https://bartarvs.net/) | `伊朗里亚尔 - 加密货币` | `伊朗 - Myloc 和 Contabo 云服务器价格便宜，但 Myloc 性能低` |
+| 3 | [PQhosting](https://pq.hosting/?from=800121) | `加密货币` | `性能好，部分服务器价格便宜` |
+| 4 | [Hostbrr](https://my.hostbrr.com/order/forms/a/ODA5MA==) | `加密货币` | `价格适中，性能好` |
 
 > *免责声明：此列表仅基于个人经验，非推荐。*
 
@@ -50,19 +48,10 @@
 
 ---
 
-## Bartarvs
-
-- 列出 Bartarvs 的云服务器：[云服务器列表](https://bartarvs.net/server/cloud-server/)
-- 低成本普通性能：[MyLoc](https://bartarvs.net/cloud-server-myloc-linux/)
-- 便宜且性能好：[Contabo](https://bartarvs.net/cloud-server-contabo/)
-
-在购买之前配置：选择 Ubuntu 22 和更大存储 SSD。
-
----
 
 # 4- 如何连接到 VPS
 
-通过 SSH 连接到 VPS 需要客户端，如 Mobaxterm、Termius 或 Putty。
+通过 SSH 连接到 VPS 需要客户端，如 XTerminal。
 
 1. **获取连接信息**：
    - **IP 地址**：激活后邮件提供
@@ -70,11 +59,6 @@
    - **用户名**：通常为 `root`
    - **密码**：激活后邮件提供
 
-2. **使用 Mobaxterm 连接**：
-   - 打开 Mobaxterm，点击 `Session`，选择 `SSH`
-   - 输入服务器 IP（如 `root@IP`），端口为 `22`
-   - 点击 `OK` 后，输入密码（使用鼠标中键粘贴）
+![image](https://github.com/user-attachments/assets/e64316c2-2962-4ecf-b624-11273dd752cd)
 
-3. **使用 Mobaxterm 的 SFTP**：
-   - Mobaxterm 左侧可以查看 `/root/` 目录及文件。
 
